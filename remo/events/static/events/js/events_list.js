@@ -361,7 +361,7 @@ var update_results = function(data, query, newquery, past_events) {
             var s = new Date(this.data.local_start);
             var e = new Date(this.data.local_end);
             return s.getMonth() != e.getMonth();
-        },
+	},
 	getYear: function() {
             var s = new Date(this.data.local_start);
             return s.getFullYear();
